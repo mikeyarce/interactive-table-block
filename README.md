@@ -32,7 +32,7 @@ An interactive table block for WordPress that adds the ability to search and fil
 
 ## Screenshots
 
-1. ![Filtering a table in real time](assets/screenshot-1.gif)
+![Filtering a table in real time](assets/screenshot-1.gif)
 
 ## Changelog
 
