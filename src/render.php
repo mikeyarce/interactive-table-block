@@ -127,7 +127,7 @@ $filter_input_html = sprintf(
 		role="searchbox"
 		class="interactive-table-filter"
 	/>',
-	esc_attr__( 'Filter table...', 'interactive-table' )
+	esc_attr__( 'Filter table...', 'interactive-table-block' )
 );
 
 // Generate unique IDs for accessibility.
@@ -162,7 +162,7 @@ if ( false === $json_context ) {
 	aria-labelledby="<?php echo esc_attr( $table_description_id ); ?>"
 >
 	<div id="<?php echo esc_attr( $table_description_id ); ?>" class="screen-reader-text">
-		<?php esc_html_e( 'Interactive table with filtering capability', 'interactive-table' ); ?>
+		<?php esc_html_e( 'Interactive table with filtering capability', 'interactive-table-block' ); ?>
 	</div>
 
 	<?php if ( ! empty( $initial_rows_data ) ) : ?>
@@ -211,7 +211,7 @@ if ( false === $json_context ) {
 		?>
 	<?php else : ?>
 		<div class="interactive-table-no-data">
-			<?php esc_html_e( 'No table data available.', 'interactive-table' ); ?>
+			<?php esc_html_e( 'No table data available.', 'interactive-table-block' ); ?>
 		</div>
 	<?php endif; ?>
 

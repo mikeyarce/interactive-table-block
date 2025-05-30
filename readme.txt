@@ -1,4 +1,4 @@
-=== Interactive Table ===
+=== Interactive Table Block ===
 Contributors:      mikeyarce
 Tags:              block
 Tested up to:      6.7
@@ -10,7 +10,7 @@ An interactive table block that adds the ability to search table rows.
 
 == Description ==
 
-Interactive Table is a WordPress block plugin that lets you add filterable tables to your site.
+Interactive Table Block is a WordPress block plugin that lets you add filterable tables to your site.
 
 * Instantly filter table rows as you type
 * Add and edit tables visually in the block editor
@@ -18,7 +18,7 @@ Interactive Table is a WordPress block plugin that lets you add filterable table
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/interactive-table` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/interactive-table-block` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Frequently Asked Questions ==

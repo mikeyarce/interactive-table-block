@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Interactive Table
+ * Plugin Name:       Interactive Table Block
  * Description:       An interactive table block built with the WP Interactivity API
  * Version:           0.1.0
  * Requires at least: 6.5
@@ -9,9 +9,9 @@
  * Author URI:        https://mikeyarce.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       interactive-table
+ * Text Domain:       interactive-table-block
  *
- * @package           InteractiveTable
+ * @package           InteractiveTableBlock
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

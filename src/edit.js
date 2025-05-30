@@ -31,7 +31,7 @@ export default function Edit() {
 					marginBottom: '1em',
 				} }
 			>
-				{ __( 'Interactive Table', 'interactive-table' ) }
+				{ __( 'Interactive Table', 'interactive-table-block' ) }
 			</p>
 			<InnerBlocks
 				template={ [ [ 'core/table', {} ] ] }
