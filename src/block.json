@@ -10,8 +10,11 @@
 	"example": {},
 	"supports": {
 		"interactivity": true,
-		"interactiveNamespace": "interactiveTable"
+		"interactiveNamespace": "interactiveTable",
+		"html": false
 	},
+	"allowedBlocks": ["core/table"],
+	"parent": [],
 	"attributes": {
 		"className": {
 			"type": "string",

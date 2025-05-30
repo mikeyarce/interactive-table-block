@@ -33,7 +33,11 @@ export default function Edit() {
 			>
 				{ __( 'Interactive Table', 'interactive-table' ) }
 			</p>
-			<InnerBlocks template={ [ [ 'core/table', {} ] ] } />
+			<InnerBlocks
+				template={ [ [ 'core/table', {} ] ] }
+				allowedBlocks={ [ 'core/table' ] }
+				templateLock="all"
+			/>
 		</div>
 	);
 }
