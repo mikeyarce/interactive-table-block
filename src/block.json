@@ -14,7 +14,6 @@
 		"html": false
 	},
 	"allowedBlocks": ["core/table"],
-	"parent": [],
 	"attributes": {
 		"className": {
 			"type": "string",
