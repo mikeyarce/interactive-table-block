@@ -1,6 +1,37 @@
 /**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
+ * Interactive Table Block Styles
+ * These styles get applied both on the front of your site and in the editor.
  */
+
+.interactive-table-wrapper {
+    margin: 2em 0;
+}
+
+.interactive-table-filter {
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 320px;
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1.1em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.interactive-table-filter:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 2px #cce6f6;
+}
+
+.interactive-table-no-data {
+    padding: 2em;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+}
+
