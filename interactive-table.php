@@ -11,7 +11,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       interactive-table
  *
- * @package           interactive-table
+ * @package           InteractiveTable
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -25,7 +25,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function create_block_interactive_table_block_init() {
+function marce_interactive_table_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_interactive_table_block_init' );
+// Initialize the block.
+add_action( 'init', 'marce_interactive_table_block_init' );
