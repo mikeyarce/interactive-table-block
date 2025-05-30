@@ -1,5 +1,5 @@
 {
-	"name": "interactive-table",
+	"name": "interactive-table-block",
 	"version": "0.1.0",
 	"description": "An interactive table block built with the WP Interactivity API.",
 	"author": "mikeyarce",
@@ -16,7 +16,14 @@
 		"zip": "wp-scripts plugin-zip"
 	},
 	"files": [
-		"[^.]*"
+		"build",
+		"src",
+		"interactive-table.php",
+		"readme.txt",
+		"README.md",
+		"composer.json",
+		"composer.lock",
+		"phpcs.xml"
 	],
 	"dependencies": {
 		"@wordpress/interactivity": "^6.22.0"
